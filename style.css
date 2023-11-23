@@ -1,0 +1,65 @@
+* {
+  box-sizing: border-box;
+}
+div.container {
+  position: relative;
+  display: inline-block;
+}
+
+div.container2 {
+  position: absolute;
+  display: flex;
+  width: 100%;
+  align-items: center;
+  padding: 20px;
+}
+
+div .parentNyawaPlayer {
+  position: relative;
+  height: 30px;
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
+}
+
+div .nyawa-player {
+  background-color: yellow;
+  height: 30px;
+  width: 100%;
+}
+
+div .buatNyawaPlayer {
+  position: absolute;
+  background: blue;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+}
+
+div .timer {
+  background-color: red;
+  width: 100px;
+  height: 100px;
+  flex-shrink: 0;
+}
+
+div .nyawa-musuh {
+  background-color: yellow;
+  height: 30px;
+}
+
+div .buatNyawaMusuh {
+  position: absolute;
+  background: blue;
+  top: 0;
+  right: 0;
+  left: 0;
+  bottom: 0;
+}
+
+div .parentNyawaMusuh {
+  position: relative;
+  height: 30px;
+  width: 100%;
+}
